@@ -7,4 +7,12 @@
 
 ## Actions
 
+### Fast forward merge
 
+Création d'une branche hotfix 
+
+```bash
+git checkout -b hotfix
+# add, commit ...
+git merge hotfix
+```

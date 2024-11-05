@@ -16,3 +16,5 @@ git checkout -b hotfix
 # add, commit ...
 git merge hotfix
 ```
+
+Résultat: les branches n'ayant pas divergé, il n'y a pas de création de commit du merge,mais git avance le pointeur master sur le nouveau commit.
